@@ -1,0 +1,19 @@
+{
+  "name": "swinde/winter",
+  "description": "",
+  "type": "oxideshop-module",
+  "license": [
+    "proprietary"
+  ],
+
+  "extra": {
+    "oxideshop": {
+      "target-directory": "swinde/winter"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Swinde\\Winter\\": "../../../source/modules/swinde/winter"
+    }
+  }
+}
