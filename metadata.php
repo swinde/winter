@@ -32,6 +32,11 @@ $aModule = [
     'url'           => 'https://internetservice.winde-ganzig.de',
     'email'         => 'inserv@winde-ganzig.de',
     'blocks' => [
+		[
+			'template'=> 'layout/base.tpl',
+			'block'=>'theme_svg_icons',
+			'file'=>'/views/blocks/winter_base.tpl'
+		],
         [
             'template'=> 'layout/base.tpl',
             'block'=>'base_js',
