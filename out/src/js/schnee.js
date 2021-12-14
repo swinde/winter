@@ -6,7 +6,7 @@
 //
 
 // die ID des HTML-Elements, in dem es schneien soll
-var snow_area_id = 'wrapper';
+var snow_area_id = 'winter';
 
 // maximale Anzahl der sichtbaren Schneeflocken
 var snow_flake_count = 250;
