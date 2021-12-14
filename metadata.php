@@ -17,30 +17,30 @@ $sMetadataVersion = '2.1';
  * Module information
  */
 $aModule = [
-    'id'           => 'winter',
+    'id'          => 'winter',
     'title'       => [
         'de' => '.BEES | Lass es schneien',
         'en' => '.BEES | let it Snow',
     ],
     'description' => [
-        'de' => 'Sc',
-        'en' => 'Snow',
+        'de' => 'Lass es schneien, Script erzeugt Schneeflocken',
+        'en' => 'let it Snow',
     ],
-    'thumbnail'     => '',
+    'thumbnail'     => 'out/pictures/picture.png',
     'version'       => '1.0.0',
     'author'        => 'Steffen Winde',
     'url'           => 'https://internetservice.winde-ganzig.de',
     'email'         => 'inserv@winde-ganzig.de',
     'blocks' => [
-		/*[
+		[
 			'template'=> 'layout/base.tpl',
 			'block'=>'theme_svg_icons',
-			'file'=>'/views/blocks/winter_base.tpl'
-		],*/
+			'file'=>'views/blocks/winter_base.tpl'
+		],
         [
             'template'=> 'layout/base.tpl',
             'block'=>'base_js',
-            'file'=>'/views/blocks/winter_base_js.tpl'
+            'file'=>'views/blocks/winter_base_js.tpl'
         ]
     ],
 ];
