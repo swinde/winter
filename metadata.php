@@ -35,7 +35,7 @@ $aModule = [
         [
             'template'=> 'layout/base.tpl',
             'block'=>'base_js',
-            'file'=>'/views/blocks/winter_base.tpl'
+            'file'=>'/views/blocks/winter_base_js.tpl'
         ]
     ],
 ];
